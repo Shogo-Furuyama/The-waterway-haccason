@@ -40,7 +40,7 @@ nav li{
     font-size:13px;
 }
 
-nav a:hover {
+.header-nav-a:hover {
     background-color:#414141;
     color: #ffffff;
 }
