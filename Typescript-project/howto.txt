@@ -1,2 +1,3 @@
-フォルダTypescriptにSite-Projectの中身を入れること
-追加でBootStrapも入れること
+解決：フォルダTypescriptにSite-Projectの中身を入れること
+追加でBootStrapも入れること→Typescript-projectに入れる
+
