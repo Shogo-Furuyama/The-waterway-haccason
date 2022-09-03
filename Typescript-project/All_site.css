@@ -1,11 +1,55 @@
 .navbar-light .navbar-toggler {
     border-color: rgba(0,0,0,0);
 }
-header{
-    display: flex;
-    padding: 60px 20px;
-    position: fixed;
-    justify-content: space-between;
-    transition: .5s;
-    width: 100%;
+
+header {
+    height:100px;
+}
+
+
+.name{
+    text-align: left;
+    background-image: url("../image/inawashiro.jpg");
+    background-repeat: no-repeat;
+    width: 1400px;
+    height: 400px;
+}
+nav ul {
+    list-style-type:none;
+    display:flex;
+    background-image:url("menu-back.png");
+    background-color:#e7e7e7;
+    justify-content: end;
+    
+}
+
+nav a {
+    display:block;
+    width:120px;
+    padding:10px 0px;
+    text-align:center;
+    text-decoration:none;
+
+    color:#000000;
+    font:bold 14px/20px sans-serif;
+    font-size:10px;
+}
+
+nav a:hover {
+    background-color:#414141;
+    color: #ffffff;
+}
+
+
+
+footer{
+    background-color: #ff0000;
+}
+
+.parallax-bg {
+    background-image: url('image/suiro.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
