@@ -6,7 +6,28 @@
     "title": "商品１",
     "text": "商品1テキスト"
   },
-   {
+  {
+    "display": "link",
+    "url": "https://www.google.com/search?q=2",
+    "image": "media/img/products/test_number_2.png",
+    "title": "商品２",
+    "text": "商品2テキスト"
+  },
+  {
+    "display": "link",
+    "url": "https://www.google.com/search?q=2",
+    "image": "media/img/products/test_number_2.png",
+    "title": "商品２",
+    "text": "商品2テキスト"
+  },
+  {
+    "display": "link",
+    "url": "https://www.google.com/search?q=2",
+    "image": "media/img/products/test_number_2.png",
+    "title": "商品２",
+    "text": "商品2テキスト"
+  },
+  {
     "display": "link",
     "url": "https://www.google.com/search?q=2",
     "image": "media/img/products/test_number_2.png",
