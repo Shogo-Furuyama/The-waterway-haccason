@@ -5,22 +5,23 @@
 header {
     height:100px;
 }
-
-
 .name{
     text-align: left;
-    background-image: url("../image/inawashiro.jpg");
+    background-image: url("../image/inawashiro.png");
     background-repeat: no-repeat;
-    width: 1400px;
-    height: 400px;
+    background-size:cover;
+    width: 100%;
+    height: 300px;
 }
 nav ul {
     list-style-type:none;
     display:flex;
-    background-image:url("menu-back.png");
     background-color:#e7e7e7;
-    justify-content: end;
-    
+    justify-content: center;
+}
+
+nav li{
+    padding:0,90px,0,90px;
 }
 
 nav a {
@@ -29,10 +30,9 @@ nav a {
     padding:10px 0px;
     text-align:center;
     text-decoration:none;
-
     color:#000000;
     font:bold 14px/20px sans-serif;
-    font-size:10px;
+    font-size:13px;
 }
 
 nav a:hover {
@@ -40,10 +40,32 @@ nav a:hover {
     color: #ffffff;
 }
 
-
-
 footer{
-    background-color: #ff0000;
+    position: absolute;
+    bottom: 0;
+    width:100%;
+}
+
+.fborder{
+    background-color: #e7e7e7;
+}
+
+footer ul {
+    list-style-type:none;
+    display:flex;
+    background-color:#e7e7e7;
+    justify-content: center;
+}
+
+footer a{
+    display:block;
+    width:120px;
+    padding:10px 0px;
+    text-align:center;
+    text-decoration:none;
+    color:#000000;
+    font:bold 14px/20px sans-serif;
+    font-size:10px;
 }
 
 .parallax-bg {
