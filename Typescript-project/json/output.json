@@ -1,5 +1,6 @@
 [
   {
+    "product_id":0,
     "display": "link",
     "url": "https://www.google.com/search?q=1",
     "image": "media/img/products/test_number_1.png",
@@ -7,8 +8,9 @@
     "text": "商品1テキスト"
   },
    {
+    "product_id":1,
     "display": "link",
-    "url": "https://www.google.com/search?q=2",
+    "url": "http://localhost:5500/product_shousai.html",
     "image": "media/img/products/test_number_2.png",
     "title": "商品２",
     "text": "商品2テキスト"
