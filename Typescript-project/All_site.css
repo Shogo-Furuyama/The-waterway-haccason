@@ -1,0 +1,12 @@
+.p-parts{
+    display: flex;
+    flex-wrap:nowrap;
+}
+
+.p-parts-image{
+    display: block;
+}
+
+.p-parts-info-syousai{
+    overflow-wrap: break-word;
+}
