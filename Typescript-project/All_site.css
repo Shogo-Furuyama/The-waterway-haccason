@@ -3,8 +3,13 @@
 }
 
 header {
-    height:100px;
+    height:350px;
 }
+
+body{
+    height:1200px;
+}
+
 .name{
     text-align: left;
     background-image: url("../image/inawashiro.png");
@@ -24,7 +29,7 @@ nav li{
     padding:0,90px,0,90px;
 }
 
-nav a {
+.header-nav-a{
     display:block;
     width:120px;
     padding:10px 0px;
@@ -41,9 +46,10 @@ nav a:hover {
 }
 
 footer{
-    position: absolute;
-    bottom: 0;
-    width:100%;
+    background-color: #FFFFFF;
+    border-top: solid 1px #000000;
+    text-align: center;
+    height: 100px;
 }
 
 .fborder{
@@ -68,10 +74,11 @@ footer a{
     font-size:10px;
 }
 
-.parallax-bg {
-    background-image: url('image/suiro.jpg');
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+
+.main{
+
+}
+.container{
+    background-color: #FFFFFF;
+    height: 1100px;
 }
