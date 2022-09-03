@@ -1,0 +1,2 @@
+フォルダTypescriptにSite-Projectの中身を入れること
+追加でBootStrapも入れること
