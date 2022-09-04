@@ -28,7 +28,7 @@ function jsonOutput() {
           if (json[i].display === 'link') {
             let htmlParts =
               '<div class="p-parts">' +
-              '<div class="p-parts-image">' +
+              '<div class="p-parts-imagediv">' +
               '<a taget="_self" href="' +
               json[i].url +
               '" target="_self"' +
@@ -37,14 +37,14 @@ function jsonOutput() {
               ');">' + 
               '<figure><img src="' +
               json[i].image +
-              '" alt=""></figure>' +
+              '" alt="" class="p-parts-image"></figure>' +
               '<p class="p-parts_title">' +
               json[i].title +
               '</p>' +
               '</a>' +
               '</div>' +
               '<div class="p-parts-info">' +
-              '<p class="p-parts-info-contents_title"> 説明 </p>' +
+              //'<p class="p-parts-info-contents_title"> 説明 </p>' +
               '<p class="p-parts-info-contents_text">' + 
               json[i].text + 
               '</p>' +

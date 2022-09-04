@@ -3,10 +3,10 @@
     {
       "display": "link",
       "id":1,
-      "url": "https://www.google.com/search?q=1",
-      "image": "media/img/products/test_number_1.png",
-      "title": "画像タイトル",
-      "text": "詳細",
+      "url": "https://www.gurutto-koriyama.com/detail/697/index.html",
+      "image": "media/img/products/egomagyouza.png",
+      "title": "みさとエゴマ餃子",
+      "text": "新鮮な野菜とエゴマ、食後無臭にんにく、エゴマ豚のコラボにより絶妙な食感が評判です。食後無臭にんにくの使用により約一時間ぐらいで臭いが消え、美味しさそのまま臭いも気にせず召し上がれます",
       "bigtitle" : "老舗がこだわり抜いた味"
     }
   ],
