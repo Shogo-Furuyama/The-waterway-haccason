@@ -127,6 +127,7 @@ footer a{
 .p-parts{
     display: flex;
     flex-wrap:nowrap;
+    padding-top: 30px;
 }
 
 /* 
@@ -141,6 +142,9 @@ footer a{
 */
 .p-parts-image{
     display: block;
+    width: 384px;
+    height: 240px;
+    
 }
 
 /* 

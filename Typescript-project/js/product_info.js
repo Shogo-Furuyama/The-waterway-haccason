@@ -41,13 +41,13 @@ function jsonOutput() {
               json[product_id][i].bigtitle +
               '</h2>' +
               '<div class="p-parts">' +
-              '<div class="p-parts-image">' +
+              '<div class="p-parts-imagediv">' +
               '<a href="' +
               json[product_id][i].url +
               '" target="_self">' +
               '<figure><img src="' +
               json[product_id][i].image +
-              '" alt=""></figure>' +
+              '" alt="" class="p-parts-image"></figure>' +
               '<p class="p-parts_title">' +
               json[product_id][i].title +
               '</p>' +
