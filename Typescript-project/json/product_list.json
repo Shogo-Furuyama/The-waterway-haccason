@@ -2,36 +2,40 @@
   {
     "product_id":0,
     "display": "link",
-    "url": "https://www.google.com/search?q=1",
+    "url": "http://127.0.0.1:5500/product_info_page.html",
     "image": "media/img/products/test_number_1.png",
     "title": "みさとエゴマ餃子",
     "text": "新鮮な野菜とエゴマ、食後無臭にんにく、エゴマ豚のコラボにより絶妙な食感が評判です。食後無臭にんにくの使用により約一時間ぐらいで臭いが消え、美味しさそのまま臭いも気にせず召し上がれます"
 
   },
   {
+    "product_id":1,
     "display": "link",
-    "url": "http://localhost:5500/product_shousai.html",
+    "url": "http://127.0.0.1:5500/product_info_page.html",
     "image": "media/img/products/test_number_2.png",
     "title": "特別純米酒　安積野",
     "text": "酒造米は福島県が開発した「夢の香、使用した酵母は福島県ハイテクプラザが開発した「うつくしま夢酵母」と福島県産にこだわり、郡山の地で醸造した特別純米酒"
   },
   {
+    "product_id":2,
     "display": "link",
-    "url": "https://www.google.com/search?q=2",
+    "url": "http://127.0.0.1:5500/product_info_page.html",
     "image": "media/img/products/test_number_2.png",
     "title": "898(白馬)のスコーン",
     "text": "小麦粉を一切使用せず、郡山産米「あさか舞」の米粉を使用して作られたグルテンフリースイーツ。"
   },
   {
+    "product_id":3,
     "display": "link",
-    "url": "https://www.google.com/search?q=2",
+    "url": "http://127.0.0.1:5500/product_info_page.html",
     "image": "media/img/products/test_number_2.png",
     "title": "大黒屋のくるみゆべし",
     "text": "第23回全国菓子大博覧会 最高賞 名誉総裁賞受賞。良質のもち米、くるみをたっぷり用い、そして本醸造の良質の醤油の香ばしい味を引き立てます。自然の風味をそのままに作り上げた逸品、甘さ控えめなお菓子です"
   },
   {
+    "product_id":4,
     "display": "link",
-    "url": "https://www.google.com/search?q=2",
+    "url": "http://127.0.0.1:5500/product_info_page.html",
     "image": "media/img/products/test_number_2.png",
     "title": "里の放牧豚",
     "text": "遊休地再生と循環型農業を目指し、平成21年から飼育を始めた放牧豚。3つの品種を交配した三元豚。通常は半年で出荷するが、約10ヶ月の飼育期間をかけている。肉質は細やかで歯ごたえと弾力があり、油はコクと香り、甘みがある"

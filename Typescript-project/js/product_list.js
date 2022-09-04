@@ -1,25 +1,16 @@
+/* 
+    jsonOutPut
+    jsonファイル内の情報を出力して商品リストを生成する。
+    対象となるファイルは「productlist.json」
+*/
 function jsonOutput() {
     // XMLHttpRequestインスタンスを作成
     let request = new XMLHttpRequest();
   
     // JSONファイルが置いてあるパスを記述
-    request.open('GET', '../json/product_info.json');
+    request.open('GET', '../json/product_list.json');
     request.send();
-
-    // cookieから商品番号product_idを取り出す
-    let product_id = -1;
-    var cookies = document.cookie; 
-    var cookiesArray = cookies.split(';');
-    for(var c of cookiesArray){ 
-        var cArray = c.split('='); 
-        console.log(cArray);
-        console.log(cArray[0]);
-        cArray[0] = cArray[0].replace(" ","");
-        if( cArray[0] === 'product_id'){ // 取り出したいkeyと合致したら
-            product_id = Number(cArray[1]); 
-            console.log('key一致' + product_id);
-        }
-    }
+  
     // JSON読み込み時の処理
     request.onreadystatechange = () => {
       // 全てのデータを受信・正常に処理された場合
@@ -31,38 +22,33 @@ function jsonOutput() {
         let html = '';
   
         // JSONにあるオブジェクト数の分だけfor文で処理
-        for (let i = 0; i < json[product_id].length; i++) {
+        for (let i = 0; i < json.length; i++) {
           // displayの値によってid:containerタグ内に生成するタグを変更する
           // link ：　商品リストページの商品リスト
-          if (json[product_id][i].display === 'link') {
+          if (json[i].display === 'link') {
             let htmlParts =
-              '<div class="p-shousai-outline">' +
-              '<h2>' + 
-              json[product_id][i].bigtitle +
-              '</h2>' +
               '<div class="p-parts">' +
               '<div class="p-parts-image">' +
-              '<a href="' +
-              json[product_id][i].url +
-              '" target="_self">' +
+              '<a taget="_self" href="' +
+              json[i].url +
+              '" target="_self"' +
+              ' onclick="setcookie_productid(' +
+              json[i].product_id +
+              ');">' + 
               '<figure><img src="' +
-              json[product_id][i].image +
+              json[i].image +
               '" alt=""></figure>' +
               '<p class="p-parts_title">' +
-              json[product_id][i].title +
+              json[i].title +
               '</p>' +
               '</a>' +
               '</div>' +
               '<div class="p-parts-info">' +
               '<p class="p-parts-info-contents_title"> 説明 </p>' +
               '<p class="p-parts-info-contents_text">' + 
-              json[product_id][i].text + 
+              json[i].text + 
               '</p>' +
-              '<a target="_blank" href="' +
-              json[product_id][i].url + 
-              '"> 外部詳細ページはこちら' + '</a>' +
               '</div>' +
-              '</div>' + 
               '</div>';
   
             // 先述の変数の中に、出来上がったHTMLを格納
@@ -76,5 +62,16 @@ function jsonOutput() {
     };
   }
 
+
+/* 
+    関数　setcookie_productid(product_id)
+    product_id ：　product_idとしてcookie内に登録する値
+    商品詳細ページに移動時に選択した商品idをcookie内に登録する
+*/
+function setcookie_productid(product_id) {
+  document.cookie = 'product_id=' + product_id + ';';
+}
+
 // -----------------ファイル読込時に実行-----------------
 jsonOutput();
+
