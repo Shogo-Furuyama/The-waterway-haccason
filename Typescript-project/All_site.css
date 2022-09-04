@@ -26,7 +26,7 @@ nav ul {
 }
 
 nav li{
-    padding:0,90px,0,90px;
+    padding:0px 90px 0px 90px;
 }
 
 .header-nav-a{
@@ -44,6 +44,37 @@ nav li{
     background-color:#414141;
     color: #ffffff;
 }
+
+h2{
+    margin-bottom: 20px;
+}
+div p{
+    margin: 0px;
+}
+/*本文CSS*/
+.suiro{
+    text-align: center;
+}
+.suiro-image{
+    height: 65%;
+    width: 70%;
+    margin-bottom: 70px;
+}
+.inawashiro-image{
+    height: 65%;
+    width: 70%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.story{
+    color:red;
+    margin-bottom: 20px;
+    
+}
+
+
+
+
 
 footer{
     background-color: #FFFFFF;
@@ -74,6 +105,13 @@ footer a{
     font-size:10px;
 }
 
+.QRcaption{
+    text-align:center;
+}
+
+.QR{
+    margin : 100px auto;
+}
 
 .main{
 
