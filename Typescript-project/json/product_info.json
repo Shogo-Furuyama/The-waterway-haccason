@@ -1,0 +1,33 @@
+[
+  [
+    {
+      "display": "link",
+      "id":1,
+      "url": "https://www.google.com/search?q=1",
+      "image": "media/img/products/test_number_1.png",
+      "title": "画像タイトル",
+      "text": "詳細",
+      "bigtitle" : "老舗がこだわり抜いた味"
+    }
+  ],
+  [
+    {
+      "display": "link",
+      "id":1,
+      "url": "https://www.google.com/search?q=1",
+      "image": "media/img/products/test_number_1.png",
+      "title": "画像タイトル",
+      "text": "詳細",
+      "bigtitle" : "老舗がこだわり抜いた味"
+    },
+    {
+      "display": "link",
+      "id":1,
+      "url": "https://www.google.com/search?q=1",
+      "image": "media/img/products/test_number_1.png",
+      "title": "画像タイトル",
+      "text": "詳細",
+      "bigtitle" : "店長の一言"
+    }
+  ]
+]

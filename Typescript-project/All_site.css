@@ -120,3 +120,46 @@ footer a{
     background-color: #FFFFFF;
     height: 1100px;
 }
+/* 
+　商品リストのそのものを囲んでいるdiv
+　商品詳細の見出し以外の場所
+*/
+.p-parts{
+    display: flex;
+    flex-wrap:nowrap;
+}
+
+/* 
+　商品リスト、商品詳細の画像横の情報を囲むdiv
+*/
+.p-parts-info{
+    display: block;
+}
+
+/* 
+　商品リスト、商品詳細の画像
+*/
+.p-parts-image{
+    display: block;
+}
+
+/* 
+　商品リスト、商品詳細の情報のタイトル
+*/
+.p-parts-info-contents_title{
+
+}
+
+/* 
+　商品リスト、商品詳細の情報のテキスト
+*/
+.p-parts-info-contents_text{
+    overflow-wrap: break-word;
+}
+
+/* 
+　商品詳細と見出しを囲むdiv
+*/
+.p-shousai-outline{
+
+}
