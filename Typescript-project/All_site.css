@@ -74,6 +74,13 @@ footer a{
     font-size:10px;
 }
 
+.QRcaption{
+    text-align:center;
+}
+
+.QR{
+    margin : 100px auto;
+}
 
 .main{
 
