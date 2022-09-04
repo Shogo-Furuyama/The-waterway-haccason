@@ -3,7 +3,7 @@ function jsonOutput() {
     let request = new XMLHttpRequest();
   
     // JSONファイルが置いてあるパスを記述
-    request.open('GET', '../json/product_info.json');
+    request.open('GET', 'json/product_info.json');
     request.send();
 
     // cookieから商品番号product_idを取り出す
